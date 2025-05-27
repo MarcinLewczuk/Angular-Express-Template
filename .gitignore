@@ -37,12 +37,8 @@ yarn-error.log
 testem.log
 /typings
 
-# Keys
-bizsuite_ssh_priv.key
-bizsuite_ssh.pub
-
 # Backend
-private/.env
+backend/private
 
 # System files
 .DS_Store
