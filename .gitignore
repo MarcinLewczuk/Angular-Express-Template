@@ -38,7 +38,9 @@ testem.log
 /typings
 
 # Backend
-backend/private
+backend/private/.env
+backend/private/bizsuite_ssh_priv.key
+backend/private/bizsuite_ssh.pub
 
 # System files
 .DS_Store

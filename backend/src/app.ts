@@ -42,11 +42,13 @@ server.listen(process.env['PORT'], (error?: Error) => {
   }
 });
 
-// Routes
+// --- Routes ---
+// Users
 server.get('/users', (req: Request, res: Response) => {
   selectAll('users')(req, res);
 });
 
+// Products
 server.get('/products', (req: Request, res: Response) => {
   selectAll('products')(req, res);
 });
