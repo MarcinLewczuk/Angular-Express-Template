@@ -7,11 +7,11 @@ Since this is a private folder, the information here is to be personalised to yo
 ### Private folder to be populated with a .env file in the format of:
 <strong><> = Placeholders</strong>
 
-DB_HOST=<Hostname>
-DB_PORT=<Port>
-DB_USER=<Username>
-DB_PASS=<User Password>
-DB_NAME=<Database Name>
+DB_HOST=\<Hostname><br>
+DB_PORT=\<Port><br>
+DB_USER=\<Username><br>
+DB_PASS=\<User Password><br>
+DB_NAME=\<Database Name><br>
 PORT=3000 <-- <strong>This is the default express middleware port, not to be changed.</strong>
 
 ---
